@@ -29,30 +29,31 @@ M.setup = function()
 		"<CMD>lua require('neoscroll-motions').scroll_to_prev('^$')<CR>",
 		{ noremap = true, silent = true }
 	)
-	vim.api.nvim_set_keymap(
-		"n",
-		"n",
-		"<CMD>lua require('neoscroll-motions').scroll_to_next('@/')<CR>",
-		{ noremap = true, silent = true }
-	)
-	vim.api.nvim_set_keymap(
-		"n",
-		"N",
-		"<CMD>lua require('neoscroll-motions').scroll_to_prev('@/')<CR>",
-		{ noremap = true, silent = true }
-	)
-	vim.api.nvim_set_keymap(
-		"n",
-		"*",
-		"<CMD>lua require('neoscroll-motions').scroll_to_next('@*')<CR>",
-		{ noremap = true, silent = true }
-	)
-	vim.api.nvim_set_keymap(
-		"n",
-		"#",
-		"<CMD>lua require('neoscroll-motions').scroll_to_prev('@*')<CR>",
-		{ noremap = true, silent = true }
-	)
+	-- vim.api.nvim_set_keymap(
+	-- 	"n",
+	-- 	"n",
+	-- 	"<CMD>lua require('neoscroll-motions').scroll_to_next('@/')<CR>",
+	-- 	{ noremap = true, silent = true }
+	-- )
+	-- vim.api.nvim_set_keymap(
+	-- 	"n",
+	-- 	"N",
+	-- 	"<CMD>lua require('neoscroll-motions').scroll_to_prev('@/')<CR>",
+	-- 	{ noremap = true, silent = true }
+	-- )
+	-- FIXME:
+	-- vim.api.nvim_set_keymap(
+	-- 	"n",
+	-- 	"*",
+	-- 	"<CMD>lua require('neoscroll-motions').scroll_to_next('@*')<CR>",
+	-- 	{ noremap = true, silent = true }
+	-- )
+	-- vim.api.nvim_set_keymap(
+	-- 	"n",
+	-- 	"#",
+	-- 	"<CMD>lua require('neoscroll-motions').scroll_to_prev('@*')<CR>",
+	-- 	{ noremap = true, silent = true }
+	-- )
 end
 
 return M
