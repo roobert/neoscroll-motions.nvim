@@ -1,14 +1,14 @@
-# neoscroll-paragraph
+# neoscroll-motions
 
-Neovim neoscroll paragraph support.
+Neovim neoscroll extra motions support.
 
 ## Usage
 
 ``` lua
 {
-  "roobert/neoscroll-paragraph.nvim",
+  "roobert/neoscroll-motions.nvim",
   config = function()
-    require("neoscroll-paragraph").setup()
+    require("neoscroll-motions").setup()
   end
 },
 ```
